@@ -1,0 +1,49 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 1%;
+}
+
+footer {
+    background-color: black;
+    color: goldenrod;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.section-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.modelo {
+    width: 25%;
+    margin: 3%;
+    border: 0px #E6E6E6 solid;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.modelo img {
+    width: 80%;
+    border-radius: 3%;
+}
+
+.modelo {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.retaliator {
+    text-align: center;
+    font-family: cursive;
+}
+#form {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    color:goldenrod;
+
+}

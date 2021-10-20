@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>blog</title>
+    <link rel="stylesheet" href="./blog_cont/blog/bootstrap-5.1.2-dist/css/bootstrap.rtl.min.css">
+    <link rel="stylesheet" href="./blog_cont/blog/blog.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="https://www.lamborghini.com/es-en"><img src="./images/logo.webp" alt="" style="width: 85%;"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="https://www.lamborghini.com/es-en" style="padding-left: 450px;"><img src="./images/letralambo.png" alt="" style="width: 30%;"></a>
+              </li>
+              <li class="nav-item" style="padding-top: 1%;">
+                <a class="nav-link active" aria-current="page" href="./principal.html">Home</a>
+              </li>
+              <li class="nav-item" style="padding-top: 1%;">
+                <a class="nav-link" href="./contactenos.html">Contactenos</a>
+              </li>
+          </div>
+        </div>
+      </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4" style="padding-top: 3%;">
+                <form id="formulario" method="POST" class="onta">
+                    <div class="mb-3">
+                      <label for="nombre" class="form-label">Tu nombre</label>
+                      <input type="text" class="form-control" id="nombre" name="nombre" aria-describedby="emailHelp">
+                    </div> 
+                    <div class="mb-3">
+                      <label for="correo" class="form-label">Edad</label>
+                      <input type="number" class="form-control" id="correo" name="correo" aria-describedby="emailHelp">
+                    </div> 
+                    <div class="mb-3">
+                      <label for="numero" class="form-label">Opinion</label>
+                      <input type="text" class="form-control" id="numero" name="numero" aria-describedby="emailHelp">
+                    </div>
+                    <input type="button" class="btn btn-primary" value="Enviar" onclick="recibirdatos2()">
+                </form>
+            </div>
+            <div class="col-lg-7" style="padding-top: 3%; padding-left: 8%;">
+                <hr>
+                <a href="https://as.com/diarioas/2021/06/11/actualidad/1623396393_553216.html">
+                    <h2 style="color: black;">
+                        Crean un lamborguini de lego
+                    </h2>
+                    <p style="color: black;">Recrean un lamborguini Sián FKP-37 de lego, con 400.000 piezas</p>
+                </a>
+                <hr>
+                <a href="https://as.com/diarioas/2021/05/27/actualidad/1622112144_325042.html">
+                    <h2 style="color: black;">
+                        Venden lamborguini de carton
+                    </h2>   
+                    <p style="color: black;">Recrean un lamborguini aventador en carton, lo vendieron en 8.500 euros </p>
+                </a>
+                <hr>
+                <a href="https://as.com/diarioas/2021/05/26/actualidad/1622025118_525563.html">
+                    <h2 style="color: black;">
+                        Casi muere por ayunar 1 mes
+                    </h2>   
+                    <p style="color: black;">Un hobre ayuno mas de un mes para que: "Dios le regalara un lamborguini</p>
+                </a>
+                <hr>
+                <a href="https://as.com/diarioas/2021/05/26/actualidad/1622025118_525563.html">
+                  <h2 style="color: black;">
+                      Nuevo countach
+                  </h2>   
+                  <p style="color: black;">Un nuevo superauto de lamborguini esta presente con su antiguo icono remodelado</p>
+              </a>
+              <hr>
+            </div>
+        </div>
+    </div>
+
+
+      <script src="./blog_cont/blog/form2.js"></script>
+      <script src="./blog_cont/blog/queryaventador.js"></script>
+      <script src="./blog_cont/blog/bootstrap-5.1.2-dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
